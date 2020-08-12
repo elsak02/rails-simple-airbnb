@@ -1,0 +1,21 @@
+// Place all the styles related to the flats controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+.container{
+  background-color: white;
+  padding: 50px;
+}
+
+
+.container ul{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding-left: 0px;
+}
+
+.name-box{
+  background-color: #F8F9FA;
+  padding: 10px;
+  width: 50%;
+  margin-top: 20px;
+}
